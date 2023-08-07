@@ -1,0 +1,284 @@
+h1, h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+    color:white;
+    background-color: none;
+}
+
+.fieldset{
+    width: fit-content;
+    display: block;
+}
+
+.h1{
+    text-align: start;
+    font-size: 32px;
+    font-family: cursive;
+    border: none;
+    margin-top: auto;
+    margin-left: 0.5em;
+    display: block;
+    color:white;
+    background-color: none;
+}
+
+h4{
+    text-align: center;
+    font-family:cursive;
+}
+
+.dangnhap-ki {
+    height: 3em;
+    width: 10%;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+    border: none;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    float: right;
+
+}
+
+.dangnhap-ki:hover {
+	background-color:rgb(255, 209, 209);
+}
+
+.background {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-image:url(https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149227646.jpg) ;
+    background-size: cover
+}
+
+.have_account {
+    text-align: center;
+    font-family:cursive;
+}
+
+.signup-box {
+    width: 30%;
+    height: 75%;
+    margin: auto;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+}
+
+.signup-box h1{
+    color:black;
+}
+
+.signin-box h1{
+    color:black;
+}
+
+.signin-box {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+}
+
+.search input{
+    margin-left: 60%;
+    padding: 1em;
+    border-radius: 20%;
+    font-family: cursive;
+}
+.search button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(252, 136, 136);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 30%;
+    border: 4px solid rgb(255, 209, 209);
+    cursor: pointer;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.signin-up {
+    width: 80%;
+    margin-left: 10%;
+}
+  
+.signin-up label {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:cursive;
+}
+  
+.signin-up input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-family:cursive;
+}
+
+.signin-up button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(252, 136, 136);
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 30%;
+    border: 4px solid rgb(255, 209, 209);
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+
+.signin-up button:hover{
+    background-color: rgb(255, 209, 209);
+}
+
+.nutbam {
+    font-family:cursive;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px 24px;
+}
+
+.nutbam:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+.dropdown {
+    position: relative;
+    /* display: inline-block; */
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown a:hover {background-color: #ddd;}
+  
+.show {display: block;}
+
+.add-update{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+}
+
+.add-update label{
+    margin-left: 25%;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.add-update h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+    color:black;
+    background-color: none;
+}
+
+.add-update input{
+    margin-left: auto;
+    border-radius: 20%;
+    padding: 0.75em;
+    font-family: cursive;
+    margin-bottom: 0.5em;
+    margin-top:0.5em;
+}
+
+.add-update button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(252, 136, 136);
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 30%;
+    border: 4px solid rgb(255, 209, 209);
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+
+.add-update button:hover{
+    background-color: rgb(255, 209, 209);
+}
+
+div {
+    display: grid;
+    grid-template-areas: 
+    "head head head head head head"
+    "side mean mean mean mean mean"
+    "foot foot foot foot foot foot";
+    grid-template-rows: 
+    auto auto auto;
+}
+header{grid-area: head;}
+content{grid-area: mean;}
+        /* display:flex;
+        flex-wrap: wrap;
+        align-content: flex-start; */
+aside{grid-area: side;}
+footer{grid-area: foot;}
+.viewdethi {
+    border:1px solid black;
+    border-radius: 0.75em;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
